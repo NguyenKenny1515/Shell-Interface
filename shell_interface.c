@@ -11,7 +11,7 @@ int main(void) {
 	char *args[MAXLINE/2+ 1]; /* command line with max 40 arguments */
 	int should_run = 1; /* flag to determine when to exit program */
 	while (should_run) {
-		printf("Kenny-610> ");/* prompt-replace FirstName and L3SID */
+		printf("cmd> "); /* prompt */
 		fflush(stdout);
 
 		// Read cmd from user and parse it. Make second token to chop off \n that fgets includes
